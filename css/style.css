@@ -113,6 +113,7 @@ a{
     padding: 10px 14px 9px;
     margin-right: 28px;
     transition: all .3s ;
+    color: #fff;
 }
 .btn-sign:hover{
     color: #fff;
@@ -127,4 +128,44 @@ a{
 .right-menu{
     margin-left: auto;
 
+}
+.btn__free{
+    display: none;
+}
+.section-first{
+ 
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1200px;
+}
+.image-text-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-block{
+    max-width: 720px;
+}
+.img-block > img{
+    width: 100%;
+    transform: scale(1.2) translateX(30%);
+
+}
+.txt-title{
+    font-size: 46px;
+}
+.txt-block > p{
+    font-size: 18px;
+    line-height: 1.44444;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.link-txt{
+    color: #13c8a4;
+    font-size: 18px;
+    transition: .3s;
+}
+.link-txt:hover {
+    color: #086c73;
 }
