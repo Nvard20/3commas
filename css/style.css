@@ -110,8 +110,19 @@ a{
 .btn-sign{
     background-color: #13c8a4;
     border-color: #13c8a4;
-    color: white;
     padding: 10px 14px 9px;
+    margin-right: 28px;
+    transition: all .3s ;
+}
+.btn-sign:hover{
+    color: #fff;
+    background-color: #20d9b4;
+    border-color: #20d9b4;
+    box-shadow: 0 0 0 transparent;
+}
+.btn-sign > a{
+    color: white;
+
 }
 .right-menu{
     margin-left: auto;
