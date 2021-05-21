@@ -135,20 +135,22 @@ a{
 .section-first{
  
     margin: auto;
-    margin-top: 200px;
-    max-width: 1200px;
+    padding: 100px 0;
+	overflow:hidden;
+	width:100%;
 }
 .image-text-block{
-    display: flex;
-    align-items: center;
+       display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
 }
 .img-block{
     max-width: 720px;
 }
 .img-block > img{
     width: 100%;
-    transform: scale(1.2) translateX(30%);
+    transform: scale(1.2) translateX(25%);
 
 }
 .txt-title{
