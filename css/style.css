@@ -182,3 +182,41 @@ a{
    
 	border-bottom: 1px solid #cedce5;
 }
+@media (max-width: 1230px){
+	.inner-header{
+		    padding: 18px 30px;
+
+	}
+	.img-block > img {
+    width: 100%;
+    transform: scale(1.2) translateX(-5%);
+}
+.img-block {
+    max-width: 540px;
+}
+.txt-block{
+	    padding: 0 16px;
+
+}
+.txt-title {
+    font-size: 44px;
+}
+}
+@media (max-width: 1000px){
+	.menu_list{
+		display:none;
+	}
+	.right-menu{
+		display:none;
+	}
+	#showNavigationLink{
+		display: block;
+    width: 20px;
+    height: 16px;
+    background-image: url(../img/burg.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+	}
+}
