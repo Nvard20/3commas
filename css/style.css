@@ -135,7 +135,7 @@ a{
 .section-first{
  
     margin: auto;
-    padding: 100px 0;
+    padding: 168px 0;
 	overflow:hidden;
 	width:100%;
 }
@@ -170,4 +170,15 @@ a{
 }
 .link-txt:hover {
     color: #086c73;
+}
+.header{
+	position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 99;
+    top: 0;
+}
+.fixed {
+   
+	border-bottom: 1px solid #cedce5;
 }
