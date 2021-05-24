@@ -224,9 +224,65 @@ a{
     height: 0px;
     padding: 60px 0;
 }
+.trading-stats {
+   display: flex;
+    background-color: #ebf5f5;
+    border-radius: 12px;
+    padding: 20px 5px;
+    max-width: 1200px;
+    margin: auto;
+	    justify-content: space-around;
+    align-items: center;
+
+}
+.comunity{
+	    max-width: 960px !important;
+
+	    align-items: center;
+
+}
+.img-comunity{
+	max-width: 342px;
+}
+.img-comunity > img{
+	width: 100%;
+}
+.trading-stats__item {
+	width: 40%;
+}
+.trading-stats > div {
+    padding: 0px;
+}
+.trading-stats__subtitle:before {
+display: block;
+    flex-basis: 14px;
+    height: 2px;
+    flex-shrink: 0;
+    background-color: currentColor;
+   
+    transform: translateY(12px);
+    content: "";
+	}
+.trading-stats__count {
+    color: #13c8a4;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 1.26;
+}
+.trading-stats__subtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 600;
+    position: relative;
+	font-size:24px;
+}
 .hd-txt {
     font-size: 48px;
     margin-bottom: 40px;
+	font-weight:bold
 }
 .img-txt-blocks{
     display: flex;
