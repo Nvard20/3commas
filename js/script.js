@@ -46,8 +46,8 @@ $('.toggle').click(function(){
         clickable: true,
       },
       navigation: {
-        nextEl: '.next-rev',
-        prevEl: '.prev-rev',
+        nextEl: '.next',
+        prevEl: '.prev',
       },
       breakpoints: {
         // when window width is <= 499px

@@ -273,7 +273,7 @@ a{
     background-repeat: no-repeat;
     padding: 50px 0;
     transition: all.3s cubic-bezier(.5,1,.89,1);
-
+	margin:auto;
 }
 .play{
     transition-duration: .4s,.4s,.4s;
@@ -481,6 +481,24 @@ a{
     width: 156px;
 
 }
+.tools-graph{
+	    left: 130px;
+
+}
+.slider-main{
+	    max-width: 1200px;
+
+}
+.next-prev{
+	display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.next-prev  > div{
+	    margin: 0 10px;
+		cursor: pointer;
+
+} 
 @media (max-width: 1230px){
 	.inner-header{
 		    padding: 18px 30px;
