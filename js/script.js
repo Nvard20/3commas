@@ -32,3 +32,35 @@ $('.toggle').click(function(){
 
 
  window.addEventListener('scroll',header);
+
+ var mySwiper = new Swiper ('.slider-main', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay:false,
+    parallax: true,
+      slidesPerView: 3,
+      spaceBetween: 0,
+      pagination: {
+        el: ".rv-page",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.next-rev',
+        prevEl: '.prev-rev',
+      },
+      breakpoints: {
+        // when window width is <= 499px
+        310: {
+            slidesPerView: 1,
+          
+        },
+        // when window width is <= 999px
+        999: {
+            slidesPerView: 2,
+        },
+        1150: {
+          slidesPerView: 2,
+      }
+    }
+  });
