@@ -787,10 +787,9 @@ display: block;
     padding: 10px 16px;
     min-height: 85px;
     border-radius: 10px;
-    
-    transition-duration: .2s,.2s;
-    transition-property: box-shadow,background-color;
-    transition: .1s cubic-bezier(.5,1,.89,1),cubic-bezier(.5,1,.89,1);
+    max-width: 200px;
+
+    transition: .1s ease-in-out ;
 }
 .log-link{
     display: flex;
@@ -804,7 +803,105 @@ display: block;
 .logotypes-list__item:hover {
     box-shadow: 0 4px 50px rgb(0 0 0 / 5%), 0 4px 20px rgb(0 0 0 / 10%);
     background-color: #fff;
-    transition: .1s cubic-bezier(.5,1,.89,1),cubic-bezier(.5,1,.89,1);
+
+}
+.logos-lists-other{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 840px;
+    margin: 40px auto;
+    justify-content: center;
+
+}
+.item-logos{
+    padding: 15px 36px;
+    border-radius: 0px;
+    max-width: 200px;
+    transition: all .1s ease-in-out;
+    min-height: 100px;
+    border-bottom: 1px solid #cedce5;
+    flex-basis: 33%;
+
+}
+.item-logos:hover{
+    background-color: rgba(206,220,229,.3);
+    border-radius: 10px;
+}
+.item-logos:nth-child(2),.item-logos:nth-child(2n+5) {
+    border-left: 1px solid #cedce5;
+    border-right: 1px solid #cedce5;
+}
+.last-logos{
+    border-bottom: unset;
+}
+.btn-logos{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.btn-logos > a {
+    font-weight: bold;
+    padding: 16px 30px;
+    margin: auto;
+}
+.applications-wrapper {
+    background-color: #2854c6;
+    padding: 99px 0 90px;
+    margin-top: 60px;
+
+}
+.in-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img-phone{
+    max-width: 280px;
+    position: relative;
+height: 554px;
+}
+.img-phone > img{
+    width: 100%;
+    height: 100%;
+}
+.txt-box > h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.21429;
+    font-weight: 600;
+    color: white;
+}
+.txt-box > p {
+    color: white;
+    font-size: 18px;
+
+}
+.txt-box{
+    max-width: 56%;
+
+}
+.img-bx{
+    max-width: 40%;
+
+}
+.image-text-block__blur{
+    position: absolute;
+    width: 100%;
+    right: -16%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.image-text-block__blur > img{
+    width: 100%;
+}
+.app-butons{
+    margin-top: 45px;
+
+}
+.app-bt{
+    margin: 0 10px;
 
 }
 @media (max-width: 1230px){
