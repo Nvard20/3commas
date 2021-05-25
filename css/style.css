@@ -510,7 +510,7 @@ display: block;
 .bot-1{
     bottom: -91px;
     left: -122px;
-    width: 328px;
+    max-width: 328px;
 }
 .pic > img{
     width: 100%;
@@ -518,16 +518,16 @@ display: block;
 .bot-7{
     right: 134px;
     bottom: 42px;
-    width: 156px;
+    max-width: 156px;
 }
 .bot-6{
     left: -193px;
     top: 80px;
-    width: 157px;
+    max-width: 157px;
 
 }
 .bot-5{
-    width: 328px;
+    max-width: 328px;
 }
 .bot-4{
     top: 190px;
@@ -536,12 +536,12 @@ display: block;
 }
 .bot-3{
     top: 315px;
-    width: 328px;
+    max-width:  328px;
 }
 .bot-2{
     top: 315px;
     left: -166px;
-    width: 156px;
+    max-width: 156px;
 
 }
 .tools-graph{
@@ -999,7 +999,7 @@ height: 554px;
     .col-block {
        
         padding: 36px 45px;
-        margin: auto;
+      
     }
     .same-block{
         width: 70%;
@@ -1049,6 +1049,37 @@ margin-right: unset;
         }
     }
 @media (max-width: 600px){
+    .bot-1 {
+      
+        max-width: 260px;
+    }
+    .bot-7 {
+        right: 134px;
+        bottom: 30px;
+        max-width: 100px;
+    }
+    .bot-5 {
+        max-width: 210px;
+    }
+    .bot-4 {
+        top: 147px;
+        left: -120px;
+        width: 265px;
+    }
+    .bot-2 {
+        top: 236px;
+        left: -166px;
+        max-width: 130px;
+    }
+    .bot-3 {
+        top: 236px;
+        max-width: 230px;
+    }
+.bot-6 {
+    left: -187px;
+    top: 54px;
+    max-width: 123px;
+}
     .mob-blocks{
         flex-direction: column !important;
 
@@ -1112,6 +1143,27 @@ margin-right: unset;
     }
 }
 @media (max-width: 450px){
+    .bot-1 {
+        max-width: 213px;
+    }
+    .bot-5 {
+        max-width: 180px;
+    }
+    .bot-4{
+        width: 206px;
+
+    }
+    .bot-3 {
+        top: 217px;
+        max-width: 179px;
+    }
+    
+
+.bot-2 {
+    top: 217px;
+    left: -168px;
+    max-width: 100px;
+}
     .pic-1 {
         right: -20px;
         bottom: -65px;
@@ -1130,6 +1182,13 @@ margin-right: unset;
     }
     .trade {
         margin: 42px 0;
+    }
+    .pr-5 {
+       
+        max-width: 85px;
+    }
+    .pr-1 {
+        max-width: 78px !important;
     }
 }
 @media (max-width: 400px){
