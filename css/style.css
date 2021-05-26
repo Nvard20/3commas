@@ -539,7 +539,7 @@ display: block;
     max-width:  328px;
 }
 .bot-2{
-    top: 315px;
+    top: 341px;
     left: -166px;
     max-width: 156px;
 
@@ -1049,6 +1049,9 @@ margin-right: unset;
         }
     }
 @media (max-width: 600px){
+    .tools-graph {
+        left: 110px;
+    }
     .bot-1 {
       
         max-width: 260px;
@@ -1144,26 +1147,39 @@ margin-right: unset;
 }
 @media (max-width: 450px){
     .bot-1 {
-        max-width: 213px;
+        max-width: 165px;
+        bottom: -91px;
+        left: 0px;
     }
     .bot-5 {
-        max-width: 180px;
+        max-width: 140px;
+        right: -14px;
+        top: 39px;
     }
-    .bot-4{
-        width: 206px;
-
+    .bot-4 {
+        width: 174px;
+        top: 122px;
+        left: -46px;
     }
     .bot-3 {
-        top: 217px;
+        top: 186px;
         max-width: 179px;
     }
-    
-
-.bot-2 {
-    top: 217px;
-    left: -168px;
-    max-width: 100px;
-}
+    .bot-7 {
+        right: -9px;
+        bottom: 27px;
+        max-width: 81px;
+    }
+    .bot-6 {
+        left: -24px;
+        top: 65px;
+        max-width: 82px;
+    }
+    .bot-2 {
+        top: 205px;
+        left: -68px;
+        max-width: 68px;
+    }
     .pic-1 {
         right: -20px;
         bottom: -65px;
@@ -1190,6 +1206,9 @@ margin-right: unset;
     .pr-1 {
         max-width: 78px !important;
     }
+    .tools-graph {
+        left: 30px;
+    }
 }
 @media (max-width: 400px){
 .pic-3, .pic-4 {
@@ -1209,4 +1228,5 @@ margin-right: unset;
 .pr-2 {
     width: 250px;
 }
+
 }
