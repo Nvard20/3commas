@@ -10,12 +10,15 @@ body{
 .header-container{
     max-width: 1200px;
     margin: auto;
+    position: relative;
+
 }
 .inner-header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 18px 0;
+
 }
 .header_logo{
     margin-right: 43px;
@@ -919,6 +922,90 @@ height: 554px;
 }
 .phone-btn{
     display: none;
+}
+.mobile-container{
+    background-color: black;
+    position: absolute;
+    width: 97%;
+    padding: 15px;
+    top: 0;
+    display: none;
+}
+.mobile-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-bottom: 1px solid #13c8a4;
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+}
+.mobile-inner{
+    padding: 0px 20px;
+    margin-bottom: 20px;
+
+}
+.mob-lang > a{
+  
+        color: #fff;
+}
+.mob-lang{
+    width: 25px;
+
+}
+.mobile-menu > li {
+    margin-bottom: 25px;
+}
+.btn-mobile:first-child{
+    background: transparent;
+    border: 1px solid #fff;
+    margin-right: 20px;
+
+}
+.mobile-menu > .menu__item  a {
+    color: white;
+}
+.mob-menu-dr{
+    background-color: black;
+    top: -75%;
+    left: 95px;
+}
+.mob-menu-dr > dropdown-item{
+    font-weight: 600;
+}
+.mobile-menu{
+    margin-bottom: 40px;
+
+}
+.app-mobile{
+    display: flex;
+    justify-content: center;
+}
+.mob-menu-dr::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 16px;
+    background-image: url(../img/rv.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn-mobile{
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    padding: 15px 1px;
+    font-weight: bold;
+}
+.mobile-navigation__buttons{
+    display: flex;
+}
+.mob-lang::after{
+    background-image: url(../img/mob-arr.svg);
 }
 @media (max-width: 1230px){
     .article-item {

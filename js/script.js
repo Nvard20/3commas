@@ -61,3 +61,13 @@ $('.toggle').click(function(){
         }
     }
   });
+  $('#showNavigationLink').click(function(){
+
+    $('.mobile-container').css({'display':"block"});
+
+  })
+  $('.close').click(function(){
+
+    $('.mobile-container').css({'display':"none"});
+
+  })
