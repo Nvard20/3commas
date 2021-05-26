@@ -58,9 +58,6 @@ $('.toggle').click(function(){
         // when window width is <= 999px
         999: {
             slidesPerView: 2,
-        },
-        1150: {
-          slidesPerView: 2,
-      }
+        }
     }
   });
