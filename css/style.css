@@ -2127,6 +2127,7 @@ a.link.play-video-link [class^=icon-] {
     line-height: 26px;
     margin-bottom: 17px;
     padding-top: 15px;
+	width:65%;
 }
 .auth-buttons-block{
     max-width: 756px;
@@ -2211,7 +2212,19 @@ margin: 20px 0;
 }
 .users-income {
     margin-top: 275px;
-
+    width: 35%;
+}
+.user__content{
+    width: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user__content-text{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .users-income__title{
     text-align: center;
@@ -2227,4 +2240,44 @@ margin: 20px 0;
     display: block;
     padding-left: 2px;
     padding-right: 2px;
+}
+.user::before{
+content: "";
+    position: absolute;
+    border: 1px solid;
+    padding: 60px;
+    transform: skew(
+0deg
+, 
+-12deg
+);
+    margin-top: 15px;
+}
+.skew-block{
+	    position: relative;
+
+}
+.user{
+	    margin-right: 15px;
+	animation: fadeIn 1s ease-in both ;
+opacity:0;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.user:nth-child(1) {
+	animation-delay: 1s;
+}
+.user:nth-child(2) {
+	animation-delay: 2s;
+}
+.user:nth-child(3) {
+	animation-delay: 3s;
 }
