@@ -71,3 +71,10 @@ $('.toggle').click(function(){
     $('.mobile-container').css({'display':"none"});
 
   })
+  $('.accordion-link ').click(function(){
+
+    $(this).next('.footer__navigation').slideToggle( "1000", function() {
+        
+    });
+    
+  })
