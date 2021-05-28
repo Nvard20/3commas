@@ -10,16 +10,106 @@
     <title>3Commas</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-           <div class="inner-header">
-            <div class="header_logo">
-                <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
-            </div>
+  <header class="header">
+    <div class="header-container">
+       <div class="inner-header">
+        <div class="header_logo">
+            <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <ul class="menu_list">
+            <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle">Features</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href="features.html">Features</a>
+                    <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                    <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
+                    <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
+                    <a class="dropdown-item" href="/trading_view">TradingView</a>
+                    <a class="dropdown-item" href="/options-bot">Options Bot</a>
+                    <a class="dropdown-item" href="/trading_terminal">Trading Terminal</a>
+                    <a class="dropdown-item" href="/crypto-signals">Crypto-Signals</a>
+                    <a class="dropdown-item" href="/exchanges">Exchanges</a>
+                </div>
+            </li>
+            <li class="menu__item"><a href = "plans.html">Plans</a></li>
+            <li class="menu__item arr"><a href="javascript:void(0);" class="toggle">Partnership</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href="/features">Features</a>
+                    <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                    
+                </div>
+            </li>
+            <li class="menu__item"><a href = "javascript:void(0);">Price Charts</a></li>
+            <li class="menu__item"><a href = "javascript:void(0);">Blog</a></li>
+            <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle" >Community</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href = "javascript:void(0);">Features</a>
+                    <a class="dropdown-item" href = "javascript:void(0);">DCA Bots</a>
+                    <a class="dropdown-item" href = "javascript:void(0);">Smart Trade</a>
+                  
+                </div>
+            </li>
+
+        </ul>
+        <div class="right-menu">
             <ul class="menu_list">
-                <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle">Features</a>
-                    <div class="dropdown-menu ">
-                        <a class="dropdown-item" href="/features">Features</a>
+                <li class="menu__item">
+                    <a href="#" class="sign"  data-target="#modal-from-bottom-2">Sign in</a>
+                </li>
+                <li class="btn-sign bt-hide signup">
+                    <a href="#"  class="signup" data-target="#modal-from-bottom-3">Sign up</a>
+                </li>
+                <li class="btn-sign btn__free">
+                    <a   href="#" >Try 3Commas for free</a>
+                </li>
+                <li class="menu__item arr language">
+                    <a href="javascript:void(0);" class="toggle">EN</a>
+                <div class="dropdown-menu drop-lang">
+                    <a class="dropdown-item it-lang" href="/features">RU</a>
+                    <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
+                    
+                </div>
+                </li>
+      
+            </ul>
+    
+        </div>
+  <div class="header__mobile-menu-link">
+        <a id="showNavigationLink"></a>
+  </div>
+    
+       </div>
+       <div class="mobile-container">
+        <div class="mobile-header">
+            <div class="mobile-logo">
+                <img src="img/logo2.svg" alt="">
+            </div>
+            <div class="close">
+                <img src="img/x.svg" alt="">
+            </div>
+        </div>
+        <div class="mobile-inner">
+            <ul class="mobile-menu">
+                <li class="menu__item arr language mob-lang">
+                    <a href="javascript:void(0);" class="toggle">EN</a>
+                <div class="dropdown-menu drop-lang">
+                    <a class="dropdown-item it-lang" href="features">RU</a>
+                    <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
+                    
+                </div>
+                </li>
+                <li >
+                    <div class="mobile-navigation__buttons">
+                        <a href="/" class="btn-sign btn-mobile">
+                          Sign in
+                        </a>
+                        <a href="/" class="btn-sign btn-mobile">
+                          Sign up
+                        </a>
+                      </div>
+                </li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Features</a>
+                    <div class="dropdown-menu mob-menu-dr ">
+                        <a class="dropdown-item" href="features.html">Features</a>
                         <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
                         <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
                         <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
@@ -30,128 +120,38 @@
                         <a class="dropdown-item" href="/exchanges">Exchanges</a>
                     </div>
                 </li>
-                <li class="menu__item"><a href = "javascript:void(0);">Plans</a></li>
-                <li class="menu__item arr"><a href="javascript:void(0);" class="toggle">Partnership</a>
-                    <div class="dropdown-menu ">
+                <li class="menu__item "><a href="plans.html" class="toggle">Plans</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Partnership</a>
+                    <div class="dropdown-menu mob-menu-dr ">
+                        <a class="dropdown-item" href="/features">Features</a>
+                        <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                        <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
+                        
+                    </div>
+                </li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Blog</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Comunity</a>
+                    <div class="dropdown-menu mob-menu-dr ">
                         <a class="dropdown-item" href="/features">Features</a>
                         <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
                         
                     </div>
                 </li>
-                <li class="menu__item"><a href = "javascript:void(0);">Price Charts</a></li>
-                <li class="menu__item"><a href = "javascript:void(0);">Blog</a></li>
-                <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle" >Community</a>
-                    <div class="dropdown-menu ">
-                        <a class="dropdown-item" href = "javascript:void(0);">Features</a>
-                        <a class="dropdown-item" href = "javascript:void(0);">DCA Bots</a>
-                        <a class="dropdown-item" href = "javascript:void(0);">Smart Trade</a>
-                      
-                    </div>
-                </li>
-
             </ul>
-            <div class="right-menu">
-                <ul class="menu_list">
-                    <li class="menu__item">
-                        <a href="#" class="sign"  data-target="#modal-from-bottom-2">Sign in</a>
-                    </li>
-                    <li class="btn-sign bt-hide signup">
-                        <a href="#"  class="signup" data-target="#modal-from-bottom-3">Sign up</a>
-                    </li>
-                    <li class="btn-sign btn__free">
-                        <a   href="#" >Try 3Commas for free</a>
-                    </li>
-                    <li class="menu__item arr language">
-                        <a href="javascript:void(0);" class="toggle">EN</a>
-                    <div class="dropdown-menu drop-lang">
-                        <a class="dropdown-item it-lang" href="/features">RU</a>
-                        <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
-                        
-                    </div>
-                    </li>
-					
-                </ul>
-				
-            </div>
-			<div class="header__mobile-menu-link">
-						<a id="showNavigationLink"></a>
-			</div>
-        
-           </div>
-           <div class="mobile-container">
-            <div class="mobile-header">
-                <div class="mobile-logo">
-                    <img src="img/logo2.svg" alt="">
-                </div>
-                <div class="close">
-                    <img src="img/x.svg" alt="">
-                </div>
-            </div>
-            <div class="mobile-inner">
-                <ul class="mobile-menu">
-                    <li class="menu__item arr language mob-lang">
-                        <a href="javascript:void(0);" class="toggle">EN</a>
-                    <div class="dropdown-menu drop-lang">
-                        <a class="dropdown-item it-lang" href="/features">RU</a>
-                        <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
-                        
-                    </div>
-                    </li>
-                    <li >
-                        <div class="mobile-navigation__buttons">
-                            <a href="/" class="btn-sign btn-mobile">
-                              Sign in
-                            </a>
-                            <a href="/" class="btn-sign btn-mobile">
-                              Sign up
-                            </a>
-                          </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Features</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
-                            <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
-                            <a class="dropdown-item" href="/trading_view">TradingView</a>
-                            <a class="dropdown-item" href="/options-bot">Options Bot</a>
-                            <a class="dropdown-item" href="/trading_terminal">Trading Terminal</a>
-                            <a class="dropdown-item" href="/crypto-signals">Crypto-Signals</a>
-                            <a class="dropdown-item" href="/exchanges">Exchanges</a>
-                        </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Partnership</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
-                            
-                        </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Blog</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Comunity</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            
-                        </div>
-                    </li>
-                </ul>
-                <div class="app-butons app-mobile">
-                    <a href="#">
-                      <img src="img/app-store.svg" alt="">
-                    </a>
-                    <a href="#" class="app-bt">
-                      <img src="img/google.svg" alt="">
-                    </a>
-                </div>
+            <div class="app-butons app-mobile">
+                <a href="#">
+                  <img src="img/app-store.svg" alt="">
+                </a>
+                <a href="#" class="app-bt">
+                  <img src="img/google.svg" alt="">
+                </a>
             </div>
         </div>
-        </div>
+    </div>
+    </div>
 
-    </header>
+</header>
  <div class="main-plans-page">
      <div class="container">
         <h1 class="title-ft">Plans  </h1>
@@ -175,10 +175,7 @@
              <div class="tarif-item">
                  <div class="tarif-inner">
                      <div class="tarif-title">Free</div>
-                     <div class="tariff__item-current-price">
-                        <sup>$</sup>
-                        <span class="tariff__item-price-number">29</span>
-                     </div>
+            
                      <div class="tariff__item-new-price">
                         <sup>$</sup>
                         <span class="tariff__item-price-number js-price-new">
@@ -196,10 +193,691 @@
 
                       </div>
                  </div>
+                  <div class="tarif-desq">
+                    <div class="tariff__list-title">
+                      Free plan includes:
+                    </div>
+                    <div class="check-list">
+                      <div class="check-list__item">
+                        One account per exchange
+                      </div>
+                      <div class="check-list__item">
+                        Scalping Trading terminal
+                      </div>
+                      <div class="check-list__item ">
+                        One SmartTrade
+                      </div>
+                      <div class="check-list__item">
+                        One DCA Bot
+                      </div>
+                      <div class="check-list__item">
+                        One GRID Bot
+                      </div>
+                      <div class="check-list__item">
+                        One Options Bot
+                      </div>
+                      <div class="check-list__item">
+                        One Bitmex, Binance Futures, ByBit or FTX futures Bot
+                      </div>
+                    </div>
+                  </div>
              </div>
+             <div class="tarif-item">
+              <div class="tarif-inner">
+                  <div class="tarif-title">Free</div>
+                  <div class="tariff__item-current-price">
+                     <sup>$</sup>
+                     <span class="tariff__item-price-number">29</span>
+                  </div>
+                  <div class="tariff__item-new-price">
+                     <sup>$</sup>
+                     <span class="tariff__item-price-number js-price-new">
+                       0
+                     </span>
+                 </div>
+                 <div class="tariff__item-price-type ">
+                  per month
+                  with annual payment
+                   </div>
+                   <div class="tarif-btn">
+                     <a href="#" class="btn-sign outline" >
+                         Try the platform for free
+
+                     </a>
+
+                   </div>
+              </div>
+               <div class="tarif-desq">
+                 <div class="tariff__list-title">
+                   Free plan includes:
+                 </div>
+                 <div class="check-list">
+                   <div class="check-list__item">
+                     One account per exchange
+                   </div>
+                   <div class="check-list__item">
+                     Scalping Trading terminal
+                   </div>
+                   <div class="check-list__item ">
+                     One SmartTrade
+                   </div>
+                   <div class="check-list__item">
+                     One DCA Bot
+                   </div>
+                   <div class="check-list__item">
+                     One GRID Bot
+                   </div>
+                   <div class="check-list__item">
+                     One Options Bot
+                   </div>
+                   <div class="check-list__item">
+                     One Bitmex, Binance Futures, ByBit or FTX futures Bot
+                   </div>
+                 </div>
+               </div>
+          </div>
+          <div class="tarif-item">
+            <div class="tarif-inner">
+                <div class="tarif-title">Free</div>
+                <div class="tariff__item-current-price">
+                   <sup>$</sup>
+                   <span class="tariff__item-price-number">29</span>
+                </div>
+                <div class="tariff__item-new-price">
+                   <sup>$</sup>
+                   <span class="tariff__item-price-number js-price-new">
+                     0
+                   </span>
+               </div>
+               <div class="tariff__item-price-type ">
+                   forever
+                 </div>
+                 <div class="tarif-btn">
+                   <a href="#" class="btn-sign outline" >
+                       Try the platform for free
+
+                   </a>
+
+                 </div>
+            </div>
+             <div class="tarif-desq">
+               <div class="tariff__list-title">
+                 Free plan includes:
+               </div>
+               <div class="check-list">
+                 <div class="check-list__item">
+                   One account per exchange
+                 </div>
+                 <div class="check-list__item">
+                   Scalping Trading terminal
+                 </div>
+                 <div class="check-list__item ">
+                   One SmartTrade
+                 </div>
+                 <div class="check-list__item">
+                   One DCA Bot
+                 </div>
+                 <div class="check-list__item">
+                   One GRID Bot
+                 </div>
+                 <div class="check-list__item">
+                   One Options Bot
+                 </div>
+                 <div class="check-list__item">
+                   One Bitmex, Binance Futures, ByBit or FTX futures Bot
+                 </div>
+               </div>
+             </div>
+        </div>
+        <div class="tarif-item">
+          <div class="tarif-inner">
+            <div class="tariff__item-image"><img src="img/select.svg" alt="selct"></div>
+
+              <div class="tarif-title">Free</div>
+              <div class="tariff__item-current-price">
+                 <sup>$</sup>
+                 <span class="tariff__item-price-number">29</span>
+              </div>
+              <div class="tariff__item-new-price">
+                 <sup>$</sup>
+                 <span class="tariff__item-price-number js-price-new">
+                   0
+                 </span>
+             </div>
+             <div class="tariff__item-price-type ">
+                 forever
+               </div>
+               <div class="tarif-btn">
+                 <a href="#" class="btn-sign " >
+                    Start trading
+
+                 </a>
+                
+               </div>
+               <div class="hide-before-replace ">
+                Full access for&nbsp;<span class="replace-trial" >3 days</span>
+               </div>
+          </div>
+           <div class="tarif-desq">
+             <div class="tariff__list-title">
+               Free plan includes:
+             </div>
+             <div class="check-list">
+               <div class="check-list__item">
+                 One account per exchange
+               </div>
+               <div class="check-list__item">
+                 Scalping Trading terminal
+               </div>
+               <div class="check-list__item ">
+                 One SmartTrade
+               </div>
+               <div class="check-list__item">
+                 One DCA Bot
+               </div>
+               <div class="check-list__item">
+                 One GRID Bot
+               </div>
+               <div class="check-list__item">
+                 One Options Bot
+               </div>
+               <div class="check-list__item">
+                 One Bitmex, Binance Futures, ByBit or FTX futures Bot
+               </div>
+             </div>
+           </div>
+      </div>
          </div>
      </div>
  </div>
+ <div class="section-plans">
+   <div class="container">
+    <div class="subtitle ft-sub">
+      Available on all plans
+
+    </div>
+    <div class="list-fits">
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path d="M11.579 8a3.58 3.58 0 013.579 3.579v3.579h-3.58a3.579 3.579 0 010-7.158zm0 8.842h3.579v3.58a3.578 3.578 0 11-3.58-3.58zM20.42 8a3.58 3.58 0 010 7.158h-3.579v-3.58A3.579 3.579 0 0120.422 8zm-3.579 8.842h3.58a3.578 3.578 0 11-3.58 3.58v-3.58z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path d="M16 15.2a4 4 0 014 4V24h-8v-4.8a4 4 0 014-4zm-5.37 2.405c-.127.43-.202.872-.224 1.32l-.006.275V24H8v-3.6a2.8 2.8 0 012.495-2.784l.136-.011zm10.74 0A2.801 2.801 0 0124 20.4V24h-2.4v-4.8c0-.554-.08-1.09-.23-1.595zM10.8 12.8a2 2 0 110 4 2 2 0 010-4zm10.4 0a2 2 0 110 4 2 2 0 010-4zM16 8a3.2 3.2 0 110 6.4A3.2 3.2 0 0116 8z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path d="M22.222 24H9.778a.767.767 0 01-.55-.234A.812.812 0 019 23.2V8.8c0-.212.082-.416.228-.566A.767.767 0 019.778 8h12.444c.206 0 .404.084.55.234.146.15.228.354.228.566v14.4a.812.812 0 01-.228.566.767.767 0 01-.55.234zm-10.11-12.8v3.2h3.11v-3.2h-3.11zm0 4.8v1.6h7.777V16H12.11zm0 3.2v1.6h7.777v-1.6H12.11zm4.666-7.2v1.6h3.11V12h-3.11z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path d="M9.778 8h12.444c.206 0 .404.081.55.226.146.144.228.34.228.544v14.845a.382.382 0 01-.177.323.392.392 0 01-.37.029L16 21.114l-6.452 2.85a.393.393 0 01-.5-.167.382.382 0 01-.048-.183V8.77c0-.204.082-.4.228-.544A.782.782 0 019.778 8zM16 16.856l2.286 1.19-.436-2.52 1.848-1.785-2.555-.368L16 11.08l-1.143 2.293-2.555.368 1.848 1.785-.435 2.52L16 16.856z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8 9.032v13.936c0 .57-.506 1.032-1.13 1.032h-7.34c-.624 0-1.13-.462-1.13-1.032V9.032c0-.57.506-1.032 1.13-1.032H19.67c.623 0 1.13.462 1.13 1.032zm-2.541 2.436h-4.518v3.613h4.518v-3.613zm-4.518-1.032c-.623 0-1.13.462-1.13 1.032v3.613c0 .57.507 1.032 1.13 1.032h4.518c.624 0 1.13-.462 1.13-1.032v-3.613c0-.57-.506-1.032-1.13-1.032h-4.518zm1.138-1.871a.471.471 0 00-.48.461c0 .255.215.462.48.462h2.242c.265 0 .48-.207.48-.462a.471.471 0 00-.48-.461h-2.242z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+      <div class="fits">
+        <div class="feature-item__image">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#13C8A4"></circle>
+            <path d="M21.818 9c.579 0 1.134.221 1.543.615.41.394.639.928.639 1.485v1.4h-1.454v8.4a2.06 2.06 0 01-.64 1.485c-.409.394-.964.615-1.542.615H10.182a2.225 2.225 0 01-1.543-.615A2.06 2.06 0 018 20.9v-1.4h11.636v1.4c0 .172.066.337.184.465.119.128.282.21.459.23l.085.005c.178 0 .35-.063.483-.177a.692.692 0 00.239-.441l.005-.082v-2.8H9.455v-7c0-.557.23-1.091.639-1.485.409-.394.964-.615 1.542-.615h10.182z" fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="feature-item__text">
+          23 supported exchanges
+        </div>
+      </div>
+    </div>
+    <div class="notice-block">
+      <div class="notice-text">
+          <h2>ENTERPRISE PLAN
+          </h2>
+          <p>
+            Our product is user feedback driven! Have a suggestion? Let us know your thoughts and our development team will implement it!          </p>
+      </div>
+      <div class="btn-wrapper">
+        <div class="tarif-btn">
+          <a href="#" class="btn-sign outline">
+            Contact us
+          </a>
+          <span class="lll">        
+              We respond to all requests within 24 hours
+          </span>
+        </div>     
+       </div>
+  </div>
+   </div>
+ </div>
+ <div class="tarrif-table">
+   <div class="container">
+      <div class="tbl-inner">
+        <table class="table">
+          <thead>
+            <tr>
+              
+              <th><div class="h2">Compare plans</div></th>
+              <th>
+                  <div class="tarif-title">Free</div>
+                  <div class="tariff__item-new-price">
+                    <sup>$</sup>
+                    <span class="tariff__item-price-number js-price-new">
+                      0
+                    </span>
+                </div>
+                <div class="tariff__item-price-type ">
+                  forever
+                </div>
+              </th>
+              <th>
+                  <div class="tarif-title">Advanced</div>
+                  <div class="tariff__item-new-price">
+                    <sup>$</sup>
+                    <span class="tariff__item-price-number js-price-new">
+                      0
+                    </span>
+                </div>
+                <div class="tariff__item-price-type ">
+                  per month
+                  with annual payment
+                                </div>
+              </th>
+              <th>
+                <div class="tarif-title">Starter</div>
+                <div class="tariff__item-new-price">
+                  <sup>$</sup>
+                  <span class="tariff__item-price-number js-price-new">
+                    0
+                  </span>
+              </div>
+              <div class="tariff__item-price-type ">
+                forever
+              </div>
+              </th>
+              <th class="best-pro">
+                <span class="rectangle"></span>
+                <div class="tarif-title">Pro</div>
+                <div class="tariff__item-new-price">
+                  <sup>$</sup>
+                  <span class="tariff__item-price-number js-price-new">
+                    0
+                  </span>
+              </div>
+              <div class="tariff__item-price-type ">
+                     per month
+                with annual payment
+              </div>
+              </th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-section">
+              <td>
+                <div class="title">Manual trading</div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Use 1 service to trade on all of your exchanges</td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-section__end">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+            </tr>
+            <tr class="table-section">
+              <td>
+                <div class="title">Portfolio</div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-section__end">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+            </tr>
+            <tr class="table-section">
+              <td>
+                <div class="title">Portfolio</div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+             
+              <td>Smart Trade</td>
+              <td>
+                <span class="item-one">1</span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td>
+                <span class="icon-check"></span>
+              </td>
+              <td class="best-pro">
+                <span class="icon-check"></span>
+              </td>
+            </tr>
+            <tr class="table-functions__item">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+           
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="best-pro"><span class="rectangle"></span></td>
+            </tr>
+            </tfoot>
+        </table>
+      </div>
+   </div>
+ </div>
+ <div class="container d-none d-sm-block">
+  <div>
+    <a class="compare-tariffs__link link link-with-icon" href="/features">
+      More about&nbsp;platform features&nbsp;<span class="icon-arrow"></span>
+</a>    </div>
+</div>
+<div class="registration-page">
+  <div class="container">
+      <div class="conts">
+          <div class="register__content-wrapper ">
+              <h2>Try 3Commas risk-free today</h2>
+              <div class="subtitle">
+                  <h4>With 3-day access to our PRO plan
+                  </h4>
+              </div>
+              <div class="auth-buttons-block">
+                  <a href="#" class="btn-sign md-bt-1">
+                      <span class="modal__icon-facebook fb_ic"></span>
+
+                       Sign up with Facebook
+                  </a>
+                  <a href="#" class="btn-sign md-bt-2 ap">
+                      <span class="apple_icon apll"></span>
+
+                      Sign up with  Apple
+                  </a>
+              </div>
+              <p>or fill out the form below  </p>
+              <div class="form-contact">
+                  <form action="">
+                      <div class="form-item">
+                          <input type="email" class="form-control" placeholder="Email">
+                      </div>
+                      <div class="form-item">
+                          <input type="password" class="form-control" placeholder="Password">
+                      </div>
+                      <div class="form-item">
+                          <input type="password" class="form-control" placeholder=" Password Confiramtion">
+                      </div>
+                      <div class="form-item bt-it">
+                          <a href="#" class="btn-sign">Register</a>
+                          <p class="terms-of-use"><span>By clicking "Register" you agree to <a target="_blank" class="link" href="">Terms of Use</a> and <a target="_blank" class="link" href="">Privacy Policy</a></span></p>
+                      </div>
+                  </form>
+              </div>
+            
+          </div>
+
+
+          <div class="users-income connected got-data">
+              <div class="users-income__title">
+                <span><span class="point"></span>LIVE</span> trading
+              </div>
+              <div class="users"><div class="user show">
+                    <div class="skew-block">
+                        <div class="user__content skew-block__content">
+                            <div class="image"><img src="img/user.svg" alt="User icon"></div>
+                            <div class="user__content-text">
+                                <div class="name">USDT_SC</div>
+                                <div class="description">profit<br>0.71%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="user show">
+                    <div class="skew-block">
+                        <div class="user__content skew-block__content">
+                            <div class="image"><img src="img/user.svg" alt="User icon"></div>
+                            <div class="user__content-text">
+                                <div class="name">USDT_TLM</div>
+                                <div class="description">profit<br>1.01%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="user show">
+                    <div class="skew-block">
+                        <div class="user__content skew-block__content">
+                            <div class="image"><img src="img/user.svg" alt="User icon"></div>
+                            <div class="user__content-text">
+                                <div class="name">BUSD_ALICE</div>
+                                <div class="description">profit<br>1.2%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+      </div>
+  
+  </div>
+</div>
   <footer class="footer">
       <div class="inner-footer">
           <div class="col-1">

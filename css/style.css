@@ -2418,8 +2418,11 @@ width: 220px;}
 }
 .tarif-item{
     flex: 0 0 25%;
-    max-width: 25%;
+    max-width: 23.5%;
     display: flex;
+    padding-bottom: 35px;
+    flex-direction: column;
+
 }
 .tariff__item-new-price{
     font-weight: 500;
@@ -2435,20 +2438,37 @@ width: 220px;}
     text-align: center;
     color: #9ca5ab;
     min-height: 48px;
+    width: 50%;
+    margin: auto;
 }
 .tarifs-blocks{
     margin-top: 43px;
     display: flex;
+    justify-content: space-between;
+
 }
 .tarif-inner{
-    padding: 64px 10px;
-
+    border-bottom: 1px solid #cedce5;
+    padding-bottom: 50px;
     width: 100%;
     transform: skew( 
 8deg
  ) rotate( 
 8deg
  );
+    height: 100%;
+    padding: 54px 0px;
+    position: relative;
+}
+.tariff__item-image{
+    position: absolute;
+    right: 36%;
+    top: -7%;
+    width: 85px;
+    height: 85px;
+}
+.tariff__item-image > img{
+    width: 100%;
     height: 100%;
 
 }
@@ -2479,6 +2499,15 @@ width: 220px;}
     background-color: #cedce5;
 
 }
+.tarif-item:nth-child(3)::after{
+    background-color: #000;
+
+}
+.tarif-item:nth-child(4)::after{
+    background-color: #13c8a4;
+
+}
+
 .tariff__item-new-price > sup{
     font-size: 27px;
     margin-right: -10px;
@@ -2488,4 +2517,321 @@ width: 220px;}
     color: #9ca5ab;
     text-decoration: line-through;
 
+}
+.check-list__item {
+    font-size: 18px;
+    padding-left: 25px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.check-list__item:before {
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url(../img/ptichka.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    content: "";
+}
+.tarif-desq {
+    transform: skew( 
+8deg
+ ) rotate( 
+8deg
+ );
+ padding: 15px 20px;
+
+}
+.tariff__list-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hide-before-replace {
+    color: #13c8a4;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.fits{
+    display: flex;
+    align-items: center;
+    width: 26%;
+    margin-bottom: 25px;
+
+}
+.list-fits{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 52px;
+
+}
+.feature-item__image{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+
+}
+.feature-item__image > img{
+    width: 100%;
+    height: 100%;
+}
+.feature-item__text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    font-weight: 400;
+}
+.section-plans{
+    margin-top: 50px;
+
+}
+.lll{
+    margin-left: 10px;
+    max-width: 240px;
+}
+.table thead tr th .h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: left;
+
+}
+.tbl-inner{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead tr th {
+    vertical-align: top;
+    padding: 35px 0 23px;
+    width: 196px;
+    max-width: 196px;
+}
+.table thead tr th:nth-child(1) {
+    width: auto !important;
+    max-width: none !important;
+}
+ .table thead th {
+    border-bottom: 1px solid #cedce5;
+
+}
+
+.table .rectangle {
+    position: relative;
+    display: block;
+    transform: skew( 
+-8deg
+ ) rotate( 
+-8deg
+ );
+    border: 1px solid #16c5a2;
+    border-bottom: 0;
+    height: 35px;
+    top: -15px;
+}
+.table{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+td .title {
+    font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+.table tr td:nth-child(1) {
+    text-align: left;
+}
+tr.table-functions__item td {
+    font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 11px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+.icon-check:before {
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url(../img/ptichka.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    content: "";
+}
+.icon-check{
+    position: relative;
+}
+.best-pro{
+    border-left: 1px solid #16c5a2;
+    border-right: 1px solid #16c5a2;
+    padding-top: 0 !important;
+
+}
+.item-one{
+    font-weight: 600;
+    color: #9ca5ab;
+    text-align: center;
+}
+.table-functions__item:hover td {
+    background: #f0f7f7;
+    cursor: default;
+}
+tr.table-section__end td {
+    padding-top: 70px;
+    border-bottom: 1px solid #cedce5;
+}
+ tfoot tr td.best-pro .rectangle {
+    top: 16px;
+    border-top: 0;
+    border-bottom: 1px solid #16c5a2;
+}
+.d-none{
+    margin-top: 70px;
+    margin-bottom: 33px;
+    font-size: 22px;
+    color: #086c73;
+}
+@media (max-width: 1200px){
+    .main-plans-page {
+        margin-top: 100px;
+        padding: 0 25px;
+    }
+    .top-info{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .tarif-item {
+        flex: 0 0 25%;
+        max-width: 22.5%;
+    }    
+    .tarifs-blocks {
+        margin: 37px 25px;
+    }
+    .section-plans {
+        margin-top: 50px;
+        padding: 0 25px;
+    }
+    .table{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .d-none{
+        margin: 0 40px;
+
+    }
+}
+@media (max-width: 1000px){
+    .tarifs-blocks {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .tarif-item{
+        margin-top: 35px;
+
+    }
+    .outline {
+       
+        margin: auto 10px;
+        font-size: 12px;
+    }
+
+    .h2{
+        font-size: 18px !important;
+
+    }
+    .tarif-title {
+        font-weight: 500;
+        font-size: 15px;}
+.tariff__item-new-price {
+            font-size: 25px;
+}
+
+
+.tariff__item-price-type {
+    font-size: 14px;}
+    .tariff__item-new-price > sup {
+        font-size: 14px;
+        margin-right: -10px;
+    }
+}
+@media (max-width: 700px){
+    .list-fits{
+        flex-direction: column;
+
+    }
+    .tarif-item {
+        flex: 0 0 50%;
+        max-width: 45.5%;
+    }
+    .tarifs-blocks {
+        margin: 37px 0px;
+        margin-left: 27px;
+    }
+    td .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    tr.table-functions__item td {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;}
+
+        .table thead tr th:nth-child(1) {
+            max-width: unset !important;
+            width: unset !important;
+        }
+        .table {
+            margin-left: 30px;
+        }   
+        .table thead tr th {
+            vertical-align: top;
+            padding: 26px 10px 22px;
+        }     
+        .best-pro{
+            padding: 0px 0 23px !important;
+
+        }
+}
+@media (max-width: 500px){
+    .tarif-item {
+        flex: 0 0 70%;
+        max-width: 58.5%;
+    }
+    .tarif-btn{
+        flex-direction: column;
+
+    }
+    .lll{
+        margin-top: 10px;
+    }
+    .tariff__item-price-type {
+        font-size: 12px;
+    }
 }

@@ -10,16 +10,106 @@
     <title>3Commas</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-           <div class="inner-header">
-            <div class="header_logo">
-                <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
-            </div>
+  <header class="header">
+    <div class="header-container">
+       <div class="inner-header">
+        <div class="header_logo">
+            <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <ul class="menu_list">
+            <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle">Features</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href="features.html">Features</a>
+                    <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                    <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
+                    <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
+                    <a class="dropdown-item" href="/trading_view">TradingView</a>
+                    <a class="dropdown-item" href="/options-bot">Options Bot</a>
+                    <a class="dropdown-item" href="/trading_terminal">Trading Terminal</a>
+                    <a class="dropdown-item" href="/crypto-signals">Crypto-Signals</a>
+                    <a class="dropdown-item" href="/exchanges">Exchanges</a>
+                </div>
+            </li>
+            <li class="menu__item"><a href = "plans.html">Plans</a></li>
+            <li class="menu__item arr"><a href="javascript:void(0);" class="toggle">Partnership</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href="/features">Features</a>
+                    <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                    
+                </div>
+            </li>
+            <li class="menu__item"><a href = "javascript:void(0);">Price Charts</a></li>
+            <li class="menu__item"><a href = "javascript:void(0);">Blog</a></li>
+            <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle" >Community</a>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href = "javascript:void(0);">Features</a>
+                    <a class="dropdown-item" href = "javascript:void(0);">DCA Bots</a>
+                    <a class="dropdown-item" href = "javascript:void(0);">Smart Trade</a>
+                  
+                </div>
+            </li>
+
+        </ul>
+        <div class="right-menu">
             <ul class="menu_list">
-                <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle">Features</a>
-                    <div class="dropdown-menu ">
-                        <a class="dropdown-item" href="/features">Features</a>
+                <li class="menu__item">
+                    <a href="#" class="sign"  data-target="#modal-from-bottom-2">Sign in</a>
+                </li>
+                <li class="btn-sign bt-hide signup">
+                    <a href="#"  class="signup" data-target="#modal-from-bottom-3">Sign up</a>
+                </li>
+                <li class="btn-sign btn__free">
+                    <a   href="#" >Try 3Commas for free</a>
+                </li>
+                <li class="menu__item arr language">
+                    <a href="javascript:void(0);" class="toggle">EN</a>
+                <div class="dropdown-menu drop-lang">
+                    <a class="dropdown-item it-lang" href="/features">RU</a>
+                    <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
+                    
+                </div>
+                </li>
+      
+            </ul>
+    
+        </div>
+  <div class="header__mobile-menu-link">
+        <a id="showNavigationLink"></a>
+  </div>
+    
+       </div>
+       <div class="mobile-container">
+        <div class="mobile-header">
+            <div class="mobile-logo">
+                <img src="img/logo2.svg" alt="">
+            </div>
+            <div class="close">
+                <img src="img/x.svg" alt="">
+            </div>
+        </div>
+        <div class="mobile-inner">
+            <ul class="mobile-menu">
+                <li class="menu__item arr language mob-lang">
+                    <a href="javascript:void(0);" class="toggle">EN</a>
+                <div class="dropdown-menu drop-lang">
+                    <a class="dropdown-item it-lang" href="features">RU</a>
+                    <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
+                    
+                </div>
+                </li>
+                <li >
+                    <div class="mobile-navigation__buttons">
+                        <a href="/" class="btn-sign btn-mobile">
+                          Sign in
+                        </a>
+                        <a href="/" class="btn-sign btn-mobile">
+                          Sign up
+                        </a>
+                      </div>
+                </li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Features</a>
+                    <div class="dropdown-menu mob-menu-dr ">
+                        <a class="dropdown-item" href="features.html">Features</a>
                         <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
                         <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
                         <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
@@ -30,128 +120,38 @@
                         <a class="dropdown-item" href="/exchanges">Exchanges</a>
                     </div>
                 </li>
-                <li class="menu__item"><a href = "javascript:void(0);">Plans</a></li>
-                <li class="menu__item arr"><a href="javascript:void(0);" class="toggle">Partnership</a>
-                    <div class="dropdown-menu ">
+                <li class="menu__item "><a href="plans.html" class="toggle">Plans</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Partnership</a>
+                    <div class="dropdown-menu mob-menu-dr ">
+                        <a class="dropdown-item" href="/features">Features</a>
+                        <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
+                        <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
+                        
+                    </div>
+                </li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Blog</a></li>
+                <li class="menu__item "><a href="javascript:void(0);" class="toggle">Comunity</a>
+                    <div class="dropdown-menu mob-menu-dr ">
                         <a class="dropdown-item" href="/features">Features</a>
                         <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
                         
                     </div>
                 </li>
-                <li class="menu__item"><a href = "javascript:void(0);">Price Charts</a></li>
-                <li class="menu__item"><a href = "javascript:void(0);">Blog</a></li>
-                <li class="menu__item arr"><a href = "javascript:void(0);" class="toggle" >Community</a>
-                    <div class="dropdown-menu ">
-                        <a class="dropdown-item" href = "javascript:void(0);">Features</a>
-                        <a class="dropdown-item" href = "javascript:void(0);">DCA Bots</a>
-                        <a class="dropdown-item" href = "javascript:void(0);">Smart Trade</a>
-                      
-                    </div>
-                </li>
-
             </ul>
-            <div class="right-menu">
-                <ul class="menu_list">
-                    <li class="menu__item">
-                        <a href="#" class="sign"  data-target="#modal-from-bottom-2">Sign in</a>
-                    </li>
-                    <li class="btn-sign bt-hide signup">
-                        <a href="#"  class="signup" data-target="#modal-from-bottom-3">Sign up</a>
-                    </li>
-                    <li class="btn-sign btn__free">
-                        <a   href="#" >Try 3Commas for free</a>
-                    </li>
-                    <li class="menu__item arr language">
-                        <a href="javascript:void(0);" class="toggle">EN</a>
-                    <div class="dropdown-menu drop-lang">
-                        <a class="dropdown-item it-lang" href="/features">RU</a>
-                        <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
-                        
-                    </div>
-                    </li>
-					
-                </ul>
-				
-            </div>
-			<div class="header__mobile-menu-link">
-						<a id="showNavigationLink"></a>
-			</div>
-        
-           </div>
-           <div class="mobile-container">
-            <div class="mobile-header">
-                <div class="mobile-logo">
-                    <img src="img/logo2.svg" alt="">
-                </div>
-                <div class="close">
-                    <img src="img/x.svg" alt="">
-                </div>
-            </div>
-            <div class="mobile-inner">
-                <ul class="mobile-menu">
-                    <li class="menu__item arr language mob-lang">
-                        <a href="javascript:void(0);" class="toggle">EN</a>
-                    <div class="dropdown-menu drop-lang">
-                        <a class="dropdown-item it-lang" href="/features">RU</a>
-                        <a class="dropdown-item it-lang" href="/dca_bots">ZH</a>
-                        
-                    </div>
-                    </li>
-                    <li >
-                        <div class="mobile-navigation__buttons">
-                            <a href="/" class="btn-sign btn-mobile">
-                              Sign in
-                            </a>
-                            <a href="/" class="btn-sign btn-mobile">
-                              Sign up
-                            </a>
-                          </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Features</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
-                            <a class="dropdown-item" href="/grid_bot">GRID Bot</a>
-                            <a class="dropdown-item" href="/trading_view">TradingView</a>
-                            <a class="dropdown-item" href="/options-bot">Options Bot</a>
-                            <a class="dropdown-item" href="/trading_terminal">Trading Terminal</a>
-                            <a class="dropdown-item" href="/crypto-signals">Crypto-Signals</a>
-                            <a class="dropdown-item" href="/exchanges">Exchanges</a>
-                        </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Partnership</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            <a class="dropdown-item" href="/smart_trade">Smart Trade</a>
-                            
-                        </div>
-                    </li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Plans</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Blog</a></li>
-                    <li class="menu__item "><a href="javascript:void(0);" class="toggle">Comunity</a>
-                        <div class="dropdown-menu mob-menu-dr ">
-                            <a class="dropdown-item" href="/features">Features</a>
-                            <a class="dropdown-item" href="/dca_bots">DCA Bots</a>
-                            
-                        </div>
-                    </li>
-                </ul>
-                <div class="app-butons app-mobile">
-                    <a href="#">
-                      <img src="img/app-store.svg" alt="">
-                    </a>
-                    <a href="#" class="app-bt">
-                      <img src="img/google.svg" alt="">
-                    </a>
-                </div>
+            <div class="app-butons app-mobile">
+                <a href="#">
+                  <img src="img/app-store.svg" alt="">
+                </a>
+                <a href="#" class="app-bt">
+                  <img src="img/google.svg" alt="">
+                </a>
             </div>
         </div>
-        </div>
+    </div>
+    </div>
 
-    </header>
+</header>
    <div class="main-ft-page">
        <div class="container">
            <h1 class="title-ft">Platform functions  </h1>
