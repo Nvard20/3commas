@@ -2368,3 +2368,124 @@ width: 220px;}
     font-size: 25px;
 }
 }
+.main-plans-page{
+    margin-top: 100px;
+}
+.top-info{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.year {
+    font-weight: 400;
+    color: #13c8a4;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.month {
+    font-weight: 400;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.pay-per > span{
+    font-size: 18px;
+}
+.outline {
+    background: transparent;
+    color: #14c8a4;
+    border: 1px solid #14c8a4;
+    border-radius: 2px;
+    margin: auto;
+
+}
+.tarif-btn{
+    margin-bottom: 24px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.tarif-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.388;
+    text-align: center;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    margin-bottom: 16px
+}
+.tarif-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: flex;
+}
+.tariff__item-new-price{
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #2f5ed7;
+    padding: 2px 16px 25px;
+
+}
+.tariff__item-price-type {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #9ca5ab;
+    min-height: 48px;
+}
+.tarifs-blocks{
+    margin-top: 43px;
+    display: flex;
+}
+.tarif-inner{
+    padding: 64px 10px;
+
+    width: 100%;
+    transform: skew( 
+8deg
+ ) rotate( 
+8deg
+ );
+    height: 100%;
+
+}
+.tarif-item{
+    border-radius: 5px 5px 0 0;
+
+    width: 100%;
+    transform: skew( 
+-8deg
+ ) rotate( 
+-8deg
+ );
+    border: 1px solid #cedce5;
+    height: 100%;
+}
+.tarif-item:after {
+    display: block;
+    height: 16px;
+    background-color: #9ca5ab;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 4px 4px 0 0;
+    content: "";
+}
+.tarif-item:first-child::after{
+    background-color: #cedce5;
+
+}
+.tariff__item-new-price > sup{
+    font-size: 27px;
+    margin-right: -10px;
+}
+.tariff__item-current-price{
+    text-align: center;
+    color: #9ca5ab;
+    text-decoration: line-through;
+
+}
