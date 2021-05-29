@@ -122,3 +122,21 @@ $('.toggle').click(function(){
     $(this).removeClass('in3');
 
   });
+  
+$('.tab-link').click(function(){
+    $('.tab-link ').removeClass('active-tab ') ;
+   $(this).addClass('active-tab');
+
+  
+})
+$('#program').click(function(){
+	$('#tab-1').hide();
+	
+	$('#tab-2').show();
+	
+});
+$('#cloud').click(function(){
+	$('#tab-2').hide();
+		$('#tab-1').show();
+
+})
