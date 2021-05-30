@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,100&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -4130,4 +4131,182 @@ margin: auto;
     .page-link > span{
         display: none;
     }
+}
+.blogs-page {
+    min-height: 430px;
+    background: url(../img/Group154.jpg);
+    background-position: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+}
+.blogs-item{
+    display: block;
+    margin: 15px 15px;
+}
+.main-first-section-wrap-part {
+    max-width: 563px;
+    height: 180px;
+    background: #fff;
+    border-radius: 15px;
+    padding-top: 27px;
+    box-sizing: border-box;
+    padding: 30px 82px;
+    box-shadow: 0 0 6px rgb(0 0 0 / 25%);
+}
+.main-first-section-wrap-part h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 21px;
+    color: #3152BC;
+}
+.main-first-section-wrap-part p {
+    font-family: 'Montserrat';
+        font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 25px;
+    width: 400px;
+    line-height: 23px;
+    letter-spacing: .25px;
+    text-transform: capitalize;
+    color: #000;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blogs-item:nth-child(4) > .main-first-section-wrap-part{
+    background-image: url(../img/Group-157.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.levl{
+    color: white !important;
+    line-height: 35px !important;
+    letter-spacing: .25px !important;
+    font-size: 21px !important;
+
+}
+.levl-btn{
+    background: #FFF;
+    box-shadow: 0 15px 25px rgb(0 119 255 / 15%);
+    border-radius: 5px;
+    width: 208px;
+    height: 34px;
+    outline: 0;
+    border: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 34px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+@media (max-width: 700px){
+    .main-first-section-wrap-part {
+        max-width: 445px;
+        height: 180px;
+        background: #fff;
+        border-radius: 15px;
+        padding-top: 27px;
+        box-sizing: border-box;
+        padding: 30px 25px;
+        box-shadow: 0 0 6px rgb(0 0 0 / 25%);
+    }
+    
+
+.main-first-section-wrap-part p { 
+    width: unset;
+}
+.levl-btn{
+    margin-top: 0px;
+
+}
+}
+.left-sidebar > li {
+    margin-bottom: 15px;
+    position: relative;
+}
+.left-sidebar > li > a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+}
+.left-sidebar > li > a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: #6F6F6F;
+    border-radius: 50%;
+
+}
+.active-cat::before{
+    background:#2955C7 !important;
+
+}
+.post-img {
+    position: relative;
+    width: 206px;
+    height: 100%;
+    border-radius: 10px;
+}
+.post-img > img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.main-content-section-wrap-posts-post-img-white {
+    background: linear-gradient(
+270deg
+,#FFF 51.99%,rgba(255,255,255,0.81) 68.4%,rgba(255,255,255,0) 100%);
+    position: absolute;
+    width: 175.3px;
+    top: 0;
+    left: 106px;
+    height: 100%;
+}
+.main-content-section-wrap-posts-post {
+    width: 611px;
+    display: flex;
+    height: 173px;
+    background: #FFF;
+    margin-top: 17px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding-right: 25px;
+}
+.post-content-top{
+    position: relative;
+}
+.post-content-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-section-wrap-posts-post-content-bottom-categories-cont{
+    display: flex;
+    position: relative;
+}
+.post-content h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
 }
