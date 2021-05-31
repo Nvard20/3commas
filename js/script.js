@@ -140,3 +140,6 @@ $('#cloud').click(function(){
 		$('#tab-1').show();
 
 })
+$('.ct').click(function(){
+  $(this).children('.box-cats').toggle();
+})
