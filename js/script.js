@@ -143,24 +143,45 @@ $('#cloud').click(function(){
 $('.ct').click(function(){
   $(this).children('.box-cats').toggle();
 });
-$("#slider-range").slider({
-  range: true, 
-  min: 0,
-  max: 5,
-  step: 1,
-  slide: function( event, ui ) {
-    $( "#min-price").html(ui.values[0]);
-    
-    suffix = '';
-    if (ui.values[ 1 ] == $( "#max-price").data('max') ){
-       suffix = '+';
-    }
-    $( "#max-price").html(ui.values[1] + suffix);         
-  },
-  create: function(event, ui){
-      $(this).slider('values', 0, 3);
-      $(this).slider('values', 3, 5);
 
+
+
+// 숫자 3자리마다 콤마 찍기
+// 숫자 3자리마다 콤마 찍기
+function numberWithCommas(x) {
+  if (x !== null) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
-})
+}
 
+$(function() {
+  //slider range init set
+  $( "#slider-range" ).slider({
+      range: true,
+      min: 100,
+      max: 1000,
+      values: [ 100, 1000 ],
+      slide: function( event, ui ) {
+          $( "#min" ).html(numberWithCommas(ui.values[ 0 ]) );
+          $( "#max" ).html(numberWithCommas(ui.values[ 1 ]) );
+      }
+  });
+
+  //slider range data tooltip set
+  var $handler = $("#slider-range .ui-slider-handle");
+
+  $handler.eq(0).append("<b class='amount'><span id='min'>"+numberWithCommas($( "#slider-range" ).slider( "values", 0 )) +"</span>원</b>");
+  $handler.eq(1).append("<b class='amount'><span id='max'>"+numberWithCommas($( "#slider-range" ).slider( "values", 1 )) +"</span>원</b>");
+
+  //slider range pointer mousedown event
+  $handler.on("mousedown",function(e){
+      e.preventDefault();
+      $(this).children(".amount").fadeIn(300);
+  });
+
+  //slider range pointer mouseup event
+  $handler.on("mouseup",function(e){
+      e.preventDefault();
+      $(this).children(".amount").fadeOut(300);
+  });
+});

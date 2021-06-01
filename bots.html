@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro.min.css">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-colors.min.css">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-rtl.min.css">
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-icons.min.css">
+    
     <title>3Commas</title>
 </head>
 <body>
@@ -158,11 +153,7 @@
 
 </header>
 <div class="bots-page">
-  <!-- <input data-role="doubleslider"
-  data-min="-40" data-max="40"
-  onchange="$('#slider-return-value').val(this.value)">
 
-<input type="text" id="slider-return-value"> -->
     <div class="container">
         <div class="clouds-container">
             <div class="cloud-desc bots-desc">
@@ -406,8 +397,7 @@
           </select>
         </div>
         <div class="landing-form__item">
-          
-          <div class="selector">
+   <!--      <div class="selector">
             <div class="price-slider">  
                 <div class="range_container">
                   <span class="landing-form__label">PROFIT PER DAY, %</span>
@@ -422,7 +412,13 @@
                 <div class="slider_bg"></div>
              
             </div> 
-        </div>
+        </div> -->
+        <div class="slider-range-wrap">
+          <div id="slider-range"></div>
+          <span class="min-range">100</span>
+          <span class="max-range">1,000</span>
+      </div>
+
         </div>
         <div class="landing-form__item">
           <div class="landing-form__label">Bot type</div>
@@ -1376,9 +1372,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-      <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
