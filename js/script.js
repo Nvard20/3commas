@@ -142,4 +142,25 @@ $('#cloud').click(function(){
 })
 $('.ct').click(function(){
   $(this).children('.box-cats').toggle();
+});
+$("#slider-range").slider({
+  range: true, 
+  min: 0,
+  max: 5,
+  step: 1,
+  slide: function( event, ui ) {
+    $( "#min-price").html(ui.values[0]);
+    
+    suffix = '';
+    if (ui.values[ 1 ] == $( "#max-price").data('max') ){
+       suffix = '+';
+    }
+    $( "#max-price").html(ui.values[1] + suffix);         
+  },
+  create: function(event, ui){
+      $(this).slider('values', 0, 3);
+      $(this).slider('values', 3, 5);
+
+  }
 })
+
