@@ -6393,3 +6393,17 @@ display: none;
 
     }
 }
+.row-big-wrapers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.clft{
+    max-width: 325px;
+
+}
+.description-text {
+    font-size: 18px;
+    line-height: 1.55;
+}
