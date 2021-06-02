@@ -162,3 +162,13 @@ $('#pro-tr').click(function(){
   $('.ready-container').hide();
   $('.pro-trade-cont').show()
 })
+
+$('#strategy-prof').click(function(){
+  $('.optimze-col-1').hide();
+  $('.optimze-col-2').show();
+})
+
+$('#ready-made').click(function(){
+  $('.optimze-col-1').show();
+  $('.optimze-col-2').hide();
+})

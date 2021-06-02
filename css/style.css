@@ -6407,3 +6407,17 @@ display: none;
     font-size: 18px;
     line-height: 1.55;
 }
+.optimze-col-2{
+    display: none;
+}
+@media (max-width: 1000px){
+    .row-big-wrapers {
+
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .clft {
+        max-width: unset;
+        margin-bottom: 20px;
+    }
+}
