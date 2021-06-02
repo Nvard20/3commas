@@ -144,44 +144,21 @@ $('.ct').click(function(){
   $(this).children('.box-cats').toggle();
 });
 
+$('#ready').click(function(){
 
+  $('.strategy-container').hide();
+  $('.ready-container').show();
+  $('.pro-trade-cont').hide()
+})
+$('#strategy').click(function(){
 
-// 숫자 3자리마다 콤마 찍기
-// 숫자 3자리마다 콤마 찍기
-function numberWithCommas(x) {
-  if (x !== null) {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  }
-}
+  $('.strategy-container').show();
+  $('.ready-container').hide();
+  $('.pro-trade-cont').hide()
+})
+$('#pro-tr').click(function(){
 
-$(function() {
-  //slider range init set
-  $( "#slider-range" ).slider({
-      range: true,
-      min: 100,
-      max: 1000,
-      values: [ 100, 1000 ],
-      slide: function( event, ui ) {
-          $( "#min" ).html(numberWithCommas(ui.values[ 0 ]) );
-          $( "#max" ).html(numberWithCommas(ui.values[ 1 ]) );
-      }
-  });
-
-  //slider range data tooltip set
-  var $handler = $("#slider-range .ui-slider-handle");
-
-  $handler.eq(0).append("<b class='amount'><span id='min'>"+numberWithCommas($( "#slider-range" ).slider( "values", 0 )) +"</span>원</b>");
-  $handler.eq(1).append("<b class='amount'><span id='max'>"+numberWithCommas($( "#slider-range" ).slider( "values", 1 )) +"</span>원</b>");
-
-  //slider range pointer mousedown event
-  $handler.on("mousedown",function(e){
-      e.preventDefault();
-      $(this).children(".amount").fadeIn(300);
-  });
-
-  //slider range pointer mouseup event
-  $handler.on("mouseup",function(e){
-      e.preventDefault();
-      $(this).children(".amount").fadeOut(300);
-  });
-});
+  $('.strategy-container').hide();
+  $('.ready-container').hide();
+  $('.pro-trade-cont').show()
+})
