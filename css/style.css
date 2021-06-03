@@ -1849,13 +1849,16 @@ margin-right: unset;
     vertical-align: -2px;
 }
 .modal__icon-facebook {
-    background-image: url(../img/fb+logo1.png);
+    background-image: url(../img/fb.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align: -8px;
+    vertical-align: -4px;
     display: inline-block;
-    width: 28px;
-    height: 28px;
+    width: 21px;
+    height: 18px;
+}
+.fb_ic{
+    background-image: url(../img/ff.jpg);
 }
   /*------End Common CSS-------*/
   .modal {
