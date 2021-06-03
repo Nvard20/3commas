@@ -1982,7 +1982,7 @@ margin-right: unset;
     font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 60px !important;
     line-height: 73px;
     margin-top: 30px;
     margin-bottom: 25px
@@ -6874,4 +6874,25 @@ display: none;
     .signal-work{
         flex-direction: column;
     }
+}
+.cl-1{
+    max-width: 600px;
+
+}
+.options_bots{
+    margin-top: 70px;
+}
+.h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25;
+}
+.pg-intr{
+align-items: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.pg-intr > .col-edu-img{
+    max-width: 400px;
 }
