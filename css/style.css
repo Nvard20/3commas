@@ -1982,7 +1982,7 @@ margin-right: unset;
     font-family: IBM Plex Sans,Helvetica Neue,Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 66px;
+    font-size: 60px;
     line-height: 73px;
     margin-top: 30px;
     margin-bottom: 25px
@@ -6712,6 +6712,22 @@ display: none;
         max-width: 430px;
         margin: auto;
     }
+    .manual-mode {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .manual-contact {
+        max-width: unset;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .manual-text {
+        max-width: unset;
+        font-size: 18px;
+    }
 }
 @media (max-width: 450px){
     .tm__blocks_img {
@@ -6734,5 +6750,128 @@ display: none;
     .smart_trade{
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+}
+.trading-view-page{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.img_view{
+    max-width: 1200px;
+}
+.img_view > img{
+    width: 100%;
+}
+
+.iframe-box{
+    max-width: 500px;
+    height: 300px;
+}
+.wrappss_row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.wrapppss-col-1{
+    max-width: 700px;
+}
+.wrapppss-col-1 > p{
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.wr-btn{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+}
+.h1-signal{
+    font-size: 48px;
+
+}
+.signal-work{
+    display: flex;
+    align-items: center;
+    max-width: 1048px;
+    margin: 75px auto;
+}
+.signal-col{
+    font-size: 18px;
+
+}
+.signal-img{
+    max-width: 475px;
+}
+.signal-img > img{
+    width: 100%;
+}
+.arrow-divider {
+    border-top: 2px solid #000;
+    margin: 32px 0;
+    padding: 0 0 64px;
+    background-image: url(../img/down.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: contain;
+}
+.signal-col > p {
+    margin-bottom: 20px;
+}
+.container_small{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 35px;
+
+}
+.container_small > p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.container_small > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.other_sbs{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.small-subtitle {
+    font-weight: bold;
+}
+.img_co{
+    margin-top: 15px;
+  max-width: 700px;
+}
+.img_co > img{
+    width: 100%;
+}
+.img_cor{
+    max-width: 475px;
+    margin-top: 15px;
+}
+.img_cor > img{
+    width: 100%;
+}
+.description-text_paragraphs-big-indent{
+    margin-bottom: 45px;
+}
+@media(max-width: 1200px){
+    .trading-view-page,.signal_work_page,section-example,.title-blft,.page-block-step,.section-example{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 1000px){
+    .img_view{
+        display: none;
+    }
+    .wrappss_row{
+        flex-direction: column;
+    }
+    .signal-work{
+        flex-direction: column;
     }
 }
