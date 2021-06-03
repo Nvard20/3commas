@@ -1849,13 +1849,13 @@ margin-right: unset;
     vertical-align: -2px;
 }
 .modal__icon-facebook {
-    background-image: url(../img/fb.svg);
+    background-image: url(../img/fb+logo1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align: -4px;
+    vertical-align: -8px;
     display: inline-block;
-    width: 20px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
 }
   /*------End Common CSS-------*/
   .modal {
@@ -1944,15 +1944,7 @@ margin-right: unset;
     padding: 8px 12px;
 
   }
-  @media (max-width: 1300px){
-    .md-bt-1 {
-        padding: 17px 30px;
-        background: black;
-    }
-    .md-bt-2 {
-        padding: 17px 30px;
-    }
-  }
+
   @media (max-width: 1200px){
    .content-mod-2{
        display: none;
@@ -2162,10 +2154,7 @@ a.link.play-video-link [class^=icon-] {
 .ap{
     color: black !important;
 }
-.fb_ic {
-    background-color: #2854c6 !important;
-    color: #2854c6 !important;
-}
+
 .register__content-wrapper > p{
 font-size: 17px;
 margin: 20px 0;
@@ -2330,9 +2319,7 @@ max-width: unset;
 		    align-items: baseline;
 
 	}
-	.md-bt-1{
-		margin-bottom: 10px;
-	}
+
 	.register__content-wrapper > h2{
 		font-size:38px;
 	}
@@ -6410,6 +6397,12 @@ display: none;
 .optimze-col-2{
     display: none;
 }
+@media (max-width:1400px){
+    .modal-content {
+        margin: 70px 15px;
+
+    }
+}
 @media (max-width: 1000px){
     .row-big-wrapers {
 
@@ -6420,4 +6413,23 @@ display: none;
         max-width: unset;
         margin-bottom: 20px;
     }
+}
+@media (max-width: 600px){
+    .modal-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    .md-bt-2{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .md-bt-1{
+        width: 50%;
+    }
+
+    .form__control {
+        width: 85%;
+    }    
 }
