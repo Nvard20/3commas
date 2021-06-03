@@ -1525,7 +1525,7 @@ margin-right: unset;
         padding: 0 20px;
     }
     .section-first {
-        padding: 66px 0;
+        padding: 80px 0;
     }
     .btn-sign{
         display: block;
@@ -1562,6 +1562,9 @@ margin-right: unset;
     }
 }
 @media (max-width: 450px){
+    .bots-page {
+        margin-top: 70px;
+    }
   .app-butons{
       display: none;
   }
@@ -2934,7 +2937,7 @@ tr.table-section__end td {
 }
 .partnership-title{
     font-size: 48px;
-
+    font-weight: bold;
 }
 .small-sb{
     font-size: 18px;
@@ -6435,4 +6438,301 @@ display: none;
     .form__control {
         width: 85%;
     }    
+}
+.exp-benefit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+.tm__blocks_img{
+    max-width: 810px;
+    margin: auto;
+}
+.tm__blocks_img > img{
+    width: 100%;
+}
+.tm-blocks  > p{
+    text-align: center;
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+}
+.tm-blocks{
+    margin-bottom: 40px;
+
+}
+.custom-numberic-list li {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 25px;
+
+}
+.custom-numberic-list__number {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ai-box{
+    max-width: 700px;
+    font-size: 18px;
+}
+.ai-container{
+    display: flex;
+}
+.ai_img{
+    max-width: 270px;
+    margin-bottom: 20px;
+
+}
+.ai_img > img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.ai-img-box{
+    margin-left: 130px;
+
+}
+.manual-mode{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+
+}
+.manual-text{
+    max-width: 500px;
+    font-size: 18px;
+}
+#myinput {
+    border-radius: 8px;
+    height: 13px;
+    width: 100%;
+
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
+#myinput::-webkit-slider-thumb {
+    width: 18px;
+    -webkit-appearance: none;
+    height: 18px;
+    background: black;
+  
+    border-radius: 50%;
+  }
+  .manual-contact{
+      max-width: 400px;
+      width: 100%;
+
+  }
+  .out{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .options-container{
+    margin-bottom: 30px;
+
+  }
+  .landing-form__item_inline {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+
+}
+.landing-form__inline-value {
+    margin-left: auto;
+}
+
+.range{
+    box-sizing: border-box;
+    appearance: none;
+    width: 100%;
+    height: 13px;
+    background-color: #13c8a4;
+    border-radius: 50px;
+    margin: 0;
+    border: 0;
+    outline: none;
+    background-size: 100% 2px;
+    pointer-events: none;
+ 
+
+ }
+ 
+ .range {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 100%; /* Specific width is required for Firefox. */
+ }
+ 
+ .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+ }
+ 
+ .range:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+ }
+ .range::-ms-track {
+    width: 100%;
+    cursor: pointer;
+ 
+    /* Hides the slider so custom styles can be added */
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+ }
+ 
+ /* Special styling for WebKit/Blink */
+ .range::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 28px;
+    
+    background-color: #000;
+    position: relative;
+    z-index: 10000;
+    cursor: pointer;
+    appearance: none;
+    pointer-events: all;
+ }
+ 
+ /* All the same stuff for Firefox */
+ .range::-moz-range-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 28px;
+   
+    background-color: #000;
+    position: relative;
+    z-index: 10000;
+    cursor: pointer;
+    appearance: none;
+    pointer-events: all;
+ }
+ 
+ /* All the same stuff for IE */
+ .range::-ms-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 28px;
+    
+    background-color: #000;
+    position: relative;
+    z-index: 10000;
+    cursor: pointer;
+    appearance: none;
+    pointer-events: all;
+ }
+ 
+ .multi-range-container {
+    max-width: 400px;
+ }
+ 
+ .multi-range {
+    position: relative;
+    height: 18px;
+    display: block;
+    width: 100%;
+ }
+    .range{
+       position: absolute;
+    }
+ 
+ 
+ .range-color {
+    /* background-color: #dee2e6; */
+    background: linear-gradient(to right, rgb(32, 217, 180) 11%, rgb(32, 217, 180) -34%, rgb(222, 226, 230) 7%, rgb(222, 226, 230) 100%);
+    border-radius: 50px;
+    width: 100%;
+    display: block;
+    height: 13px;
+    position: absolute;
+    z-index: 10;
+ }
+ 
+ .range::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+ }
+ /* .range::-ms-fill-lower {
+    background: #2a6495;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+ }
+ .range:focus::-ms-fill-lower {
+    background: #3071a9;
+ }
+ .range::-ms-fill-upper {
+    background: #3071a9;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+ }
+ .range:focus::-ms-fill-upper {
+    background: #367ebd;
+ }
+  */
+.manulasMode{
+    display: none;
+}
+@media (max-width: 1200px){
+   .bot-experience,.options-container{
+       margin: 0 30px;
+   }
+}
+@media (max-width: 1000px){
+    .ai-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .ai-img-box {
+        margin-left: 58px;
+        margin-top: 40px;
+    }
+    .ai-box{
+        max-width: unset;
+    }
+}
+@media (max-width: 900px){
+    .tm__blocks_img {
+        max-width: 430px;
+        margin: auto;
+    }
+}
+@media (max-width: 450px){
+    .tm__blocks_img {
+        max-width: 300px;
+        margin: auto;
+    }
+    .exp-benefit {
+        display: flex;
+        justify-content: center;
+        margin-top: 48px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ai-img-box {
+        margin-left: 0px;
+        margin-top: 40px;
+
+    }
+    .smart_trade{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

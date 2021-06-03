@@ -172,3 +172,13 @@ $('#ready-made').click(function(){
   $('.optimze-col-1').show();
   $('.optimze-col-2').hide();
 })
+
+$('#ai').click(function(){
+  $('.manulasMode').hide();
+  $('.ai_conts').show();
+})
+
+$('#manual').click(function(){
+  $('.manulasMode').show();
+  $('.ai_conts').hide();
+})
