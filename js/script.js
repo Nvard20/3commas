@@ -61,6 +61,23 @@ $('.toggle').click(function(){
         }
     }
   });
+new Swiper ('.banner-slider', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay:false,
+    parallax: true,
+
+      navigation: {
+        nextEl: '.button-next',
+        prevEl: '.button-prev',
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+
+      },
+    });
   $('#showNavigationLink').click(function(){
 
     $('.mobile-container').css({'display':"block"});
