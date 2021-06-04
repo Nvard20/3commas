@@ -3117,7 +3117,7 @@ margin: auto;
         max-width: 600px;
     }
     .partnership-title {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 }
 .about-page{
@@ -3498,6 +3498,8 @@ position: relative;
         max-width: 261px;
         margin-right: 30px;
     }
+    .smart_trade-page {
+        margin-top: 50px !important;}
 }
 @media (max-width: 500px){
     .mass-media-block {
@@ -7490,4 +7492,8 @@ cursor: pointer;
 }
 .text-with-icon__icon_landing_bittrex{
     background-image: url(../img/bitrex.svg);
+}
+.btn-grod-bot{
+    margin-top: 30px;
+
 }
