@@ -1703,7 +1703,6 @@ margin-right: unset;
 }
 .accordion-link{
     font-weight: bold;
-    border-bottom: 1px solid #54555d;
     padding-bottom: 15px;
     width: 100%;
     display: flex;
@@ -2297,6 +2296,10 @@ opacity:0;
 }
 }
 @media (max-width: 1000px){
+    .footer__navigation-column {
+        margin-top: 20px;
+        border-bottom: 1px solid #54555d;
+    }
 	.title-ft{
 		    font-size: 60px;
 
