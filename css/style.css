@@ -7107,6 +7107,10 @@ width: 100%;
     .manage,.imgs-group-section,.description-text_paragraphs-big-indent{
         padding: 0 20px;
     }
+    .bot__crypto{
+        padding: 0 9px;
+
+    }
 }
 @media (max-width: 1000px){
     .video-descs {
@@ -7125,4 +7129,50 @@ width: 100%;
         height: 280px;
        
     }
-    }
+}
+.cripto_signals_page{
+    margin-top: 120px;
+
+}
+.cloud-img > a{
+    margin-right: 0;
+}
+.h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+.bot__image {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+.bot__content {
+    margin-bottom: 32px;
+}
+.bot__content > p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.bot__content span{
+    font-weight: 600;
+}
+.bot__image img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-height: 200px;
+}
