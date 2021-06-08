@@ -8113,3 +8113,35 @@ margin-right: 20px;
         padding: 5px;
     }
 }
+.binances{
+    margin-top: 100px;
+
+}
+.binans-content{
+    max-width: 800px;
+    margin: auto;
+}
+.binans-content > p{
+font-size: 18px;
+}
+.binans-content > h3{
+    margin: 30px 0;
+
+}
+.articles__img {
+    width: 100%;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.notice-block_sticky_bottom {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: sticky;
+    bottom: 0;
+}
+@media (max-width: 1200px){
+    .binances , .aged{
+        padding: 0 20px;
+    }
+}
