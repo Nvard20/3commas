@@ -221,3 +221,16 @@ $("#video-popup-close, #video-popup-overlay").on('click', function(e) {
   $("#video-popup-iframe").attr('src', '');
 });
 
+$('.plan__toggle-link-show-text ').click(function(){
+  $('.block__plan-1  ').removeClass('show-plan ') ;
+  $(this).parents('.block__plan-1 ').addClass('show-plan');
+
+})
+$('#long').click(function(){
+  $(".grd-img").attr("src", 'img/strategy_grid_long.svg');
+
+})
+$('#short').click(function(){
+  $(".grd-img").attr("src", 'img/strategy_grid_short.svg');
+
+})
