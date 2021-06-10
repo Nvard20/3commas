@@ -7999,7 +7999,7 @@ margin-right: 20px;
     line-height: 1.125;
     width: 195px;
     display: block;
-
+    cursor: pointer;
 }
 .accoridons-link::after {
     width: 32px;

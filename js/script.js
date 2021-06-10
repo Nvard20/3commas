@@ -234,3 +234,6 @@ $('#short').click(function(){
   $(".grd-img").attr("src", 'img/strategy_grid_short.svg');
 
 })
+$('.accoridons-link').click(function(){
+  $('.acordions-content').toggle()
+})
