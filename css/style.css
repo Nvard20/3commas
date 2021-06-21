@@ -8843,3 +8843,9 @@ font-size: 18px;
         background-image: unset;
     }
 }
+.terms-list > li > ol > li{
+    display: flex;
+}
+.sidebar-cards-card > p{
+    margin-bottom: 0;
+}
