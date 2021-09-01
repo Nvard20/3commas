@@ -8849,3 +8849,7 @@ font-size: 18px;
 .sidebar-cards-card > p{
     margin-bottom: 0;
 }
+.wiper-container{
+overflow: hidden;
+    margin: auto;
+}
